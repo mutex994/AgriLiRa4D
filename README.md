@@ -93,6 +93,8 @@ The Radar-LiDAR-Inertial sensor data is provided in ROS bag format. Each bag con
 |          |                  | /aircraft_pose_flu     | geometry_msgs/PoseStamped | 100       |
 |          |                  | /aircraft_position_llh | sensor_msgs/NavSatFix     | 100       |
 
+For `/rslidar_points`, pay attention to its point's timestamp: the per-point `timestamp` has a constant offset w.r.t. the message `header.stamp`, and its unit is **seconds (s)**.
+
 For `/rslidar_points` and `/radar_points`, use custom PCL PointT type:
 
 ```cpp
