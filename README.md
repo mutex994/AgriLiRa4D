@@ -1,7 +1,7 @@
 # AgriLiRa4D: A Multi-Sensor UAV Dataset for Robust SLAM in Challenging Agricultural Fields
 
 [[Website]](https://zhan994.github.io/AgriLiRa4D/)
-[[arXiv]](https://arxiv.org/abs/2512.01753) 
+[[Paper]](https://arxiv.org/abs/2512.01753) 
 [[Hugging Face]](https://huggingface.co/datasets/zhan994/AgriLiRa4D)
 
 
@@ -195,4 +195,4 @@ V3D t_flu_body = t_flu_imu - R_flu_body * t_airbody_imu;
 }
 ```
 
-![Star History Chart](https://api.star-history.com/svg?repos=zhan994/AgriLiRa4D&type=Date)
+<!-- ![Star History Chart](https://api.star-history.com/svg?repos=zhan994/AgriLiRa4D&type=Date) -->
